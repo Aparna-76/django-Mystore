@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="center">
-      <h1>Register!</h1>
+      <h1>Login!</h1>
      {%if messages%}
         {%for msg in messages%}
         <div class="row">
@@ -40,21 +40,13 @@
           <span></span>
           <label>Username</label>
         </div>
+       
         <div class="txt_field">
-          <input type="text" name="email" id="id_email" required>
-          <span></span>
-          <label>email</label>
-        </div>
-        <div class="txt_field">
-          <input type="password" name="password1" id="id_password1" required>
+          <input type="password" name="password" id="id_password" required>
           <span></span>
           <label>Password</label>
         </div>
-        <div class="txt_field">
-          <input type="password" name="password2" id="id_password2" required>
-          <span></span>
-          <label>ConfirmPassword</label>
-        </div>
+        
         <div class="pass">Forgot Password?</div>
         <input type="submit" value="Login">
         <div class="signup_link">
